@@ -1,17 +1,19 @@
 # tmux + neovim + fish WorkFlow
 
-## 1. tmux
+
+## 1. neovim
+
+```shell
+$ cd ~/Desktop && git clone https://github.com/codehzy/workflow.git
+$ mv ~/Desktop/workflow/nvim ~/.config/
+```
+
+## 2. tmux
 
 ```shell
 $ cd
-$ git clone https://github.com/codehzy/workflow.git 
+$ mv ~/Desktop/workflow/.tmux .
 $ ln -s -f .tmux/.tmux.conf
-$ cp .tmux/.tmux.conf.local .
+$ cp .tmux/.tmux.conf.local ~
 ```
 
-## 2. neovim
-
-```shell
-mkdir ~/.config/nvim
-git clone 
-```
